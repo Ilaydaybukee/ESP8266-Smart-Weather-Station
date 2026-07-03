@@ -4,6 +4,20 @@ A compact IoT weather station built with an ESP8266 NodeMCU, an OLED display, a 
 
 The web dashboard includes animated weather icons, day/night theme switching, live charts, min/max values, and a simple pressure trend algorithm.
 
+## Project Preview
+
+### Live Web Dashboard
+
+![Live Web Dashboard](docs/images/web-dashboard.png)
+
+### OLED Display Output
+
+![OLED Display Output](docs/images/oled-display.jpg)
+
+### Hardware Setup
+
+![Hardware Setup](docs/images/hardware-setup.jpg)
+
 ## Features
 
 - Real-time temperature and humidity measurement using DHT11
@@ -100,9 +114,9 @@ Example `/data` output:
 ```json
 {
   "dhtOk": true,
-  "dhtTemperature": 31.8,
+  "dhtTemp": 31.8,
   "humidity": 45.2,
-  "bmpTemperature": 30.9,
+  "bmpTemp": 30.9,
   "pressure": 907.6,
   "label": "Partly Cloudy",
   "trend": "Stable",
