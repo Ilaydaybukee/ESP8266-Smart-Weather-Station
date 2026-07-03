@@ -1,0 +1,16 @@
+# Wi-Fi credentials
+firmware/weather_station/secrets.h
+
+# Arduino build files
+*.bin
+*.elf
+*.hex
+*.map
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
